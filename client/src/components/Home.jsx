@@ -6,6 +6,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Editform from "./Editform";
 
+<link rel="stylesheet" href="./style.css" />
+
 function Home() {
     const [table, setTable] = useState([]);
     const [datas, setDatas] = useState({})

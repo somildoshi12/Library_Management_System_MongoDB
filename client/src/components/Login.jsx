@@ -3,6 +3,9 @@ import Home from './Home'
 import axios from 'axios';
 import Cookies from 'js-cookie'
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+
+<link rel="stylesheet" href="./style.css" />
+
 function Login() {
     const [status, setStatus] = useState()
     const [data, setData] = useState({

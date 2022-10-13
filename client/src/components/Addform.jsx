@@ -3,6 +3,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 
+<link rel="stylesheet" href="./style.css" />
+
 function Addform() {
     const [title, setTitle] = useState('');
     const [author, setAuthor] = useState('');

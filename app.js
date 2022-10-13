@@ -1,3 +1,5 @@
+// Project Made by Somil Doshi, Preet Desai
+
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -12,11 +14,8 @@ app.use('/', require('./routes/index.js'));
 app.use(express.static(path.join(__dirname, "client", "build")))
 
 
-// ...
-
 //DB
 const local = "mongodb://localhost:27017/Books";
-const url = "mongodb+srv://bhxshxn:bhxshxn@9@cluster0.ixoza.mongodb.net/Books?Writes=true&w=majority"
 mongoose.connect(local, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
