@@ -16,7 +16,7 @@ body {
 
 .form-signin .form-signin-heading, .form-signin .checkbox {
     margin-top: 10px;
-    color: midnightblue;
+    color: #a9a9ea;
 }
 
 .form-signin .checkbox {
@@ -94,6 +94,7 @@ body {
 .center-book {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .mat {
@@ -106,7 +107,7 @@ body {
 .flex {
     height: 91vh;
     width: 100vw;
-    background-image: url('./components/images/LIBRARY\ SYSTEM.jpg');
+    background-image: url('./components/images/LIBRARY\ SYSTEM5.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -125,8 +126,40 @@ body {
 
 .dropdown-menu {
     left: -70px;
+    background-color: #cb956f !important;
 }
 
 .table td, .table th {
     color: white;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: 700;
+}
+
+.bg-dark{
+    background-color: #d28f4e!important;
+}
+
+.navbar-brand{
+    color: black !important;
+    font-weight: 700;
+}
+
+.navbar{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.bg-info{
+    background-color: #d28f4e !important
+}
+
+.form-control{
+    background-color: #c39090;
+}
+
+.form-signin{
+    background-color: #008f7f7a !important;
 }
